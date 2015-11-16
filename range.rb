@@ -12,12 +12,21 @@
   puts "hello world"
 end
 
-# 這裏是一個很常用的迴圈寫法，用 array 搭配 each 寫迴圈：
-['1str', '2str', '3str'].each do |x|
-  puts "#{x}ing"
-end
+# irb(main):001:0> 1..10.times do
+# irb(main):002:1*   puts "hello world"
+# irb(main):003:1> end
+# hello world
+# hello world
+# hello world
+# hello world
+# hello world
+# hello world
+# hello world
+# hello world
+# hello world
+# hello world
+# => 1..10
 
-# 以後在寫 rails 的時候，很多情況下你的資料都是長的像這樣：
-arr = [{id: 1, name: "andy"}, {id: 2, name: "amy"}, {id: 3, name: "john"}]
+#hello world 被印出10次
 
-# 若我要取第一個使用者的 name，就是 arr.first[:name]
+
