@@ -71,8 +71,3 @@ when 2 then puts "operation is equal to 2"
 when 3 then puts "operation is equal to 3"
 when 4 then puts "operation is equal to 4"
 end
-
-
-
-
-
