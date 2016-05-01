@@ -19,3 +19,20 @@ arr.shuffle!
 # => [3, 2, 1]
 
 # 記住 shuffle! 和 shuffle 的差別在於只有 shuffle! 會改變 arr 的資料
+
+
+# 另外一個用 Array 產生隨機樹的方法： .sample
+
+arr = [1,2,3]
+
+arr.sample
+#=> 1
+
+arr.sample
+#=> 3
+
+arr.sample
+#=> 2
+
+arr.sample
+#=> 1
